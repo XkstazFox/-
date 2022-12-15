@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 400px;
+    background-color: #d0d1d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://images.unsplash.com/photo-1669593926202-5812c913864d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80) bottom no-repeat;
+    background-size: cover;
+}
+section {
+    background-color: rgb(236, 218, 241);
+}
+h2 {
+    color:rgb(23, 45, 127);
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.new {
+    color: #fff;
+    padding: 50px 0px 32px;
+}
+article {
+    height: 500px;
+    margin: 0 auto 30px;
+    padding: 0px 15px;
+}
+article a {
+    color: black;
+    text-decoration: none;
+}
+article a:hover {
+    color: #0085a1;
+}
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+.article-meta {
+    color: rgb(39, 10, 111);
+    margin-bottom: 10px;
+    text-align: center;
+}
+article img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.winter {
+    margin-top: 7px;
+}
+.cosiness {
+    height: 500px;
+}
+.cosiness-text{
+    color: rgb(23, 45, 127);
+    border-style: dotted;
+    padding: 10px;
+    width: 44%;
+    height: 42%;
+    text-align: center;
+    float: right;
+    margin-top: 4%;
+    margin-right: 3%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+.winter-photo {
+    width: 45%;
+    height: 400px;
+    margin-left: 3%;
+    margin-bottom: 0px;
+}
+
+.christmas_tree{
+    height: 430px;
+    width: 430px;
+    margin-left: 3%;
+}
+.christmas_tree1{
+    height: 430px;
+    width: 430px;
+    margin-left: 3%;
+}
+.love{
+    margin-top: 5%;
+}
+.love_photo{
+    height: 470px;
+    width: 95%;
+    margin-left: 3%;
+}
+    
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+footer .links {
+    margin-bottom: 50px;
+}
+footer .links>a {
+    color: #636b6f;
+    padding: 0px 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: irem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.copyright {
+    color: rgb(108, 117, 125);
+    font-family: 'Times New Roman', Times, serif;
+}
